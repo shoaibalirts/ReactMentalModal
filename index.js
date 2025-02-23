@@ -19,10 +19,11 @@ const articleElement = document.getElementsByTagName("article").item(0);
 console.log(articleElements); // HTMLCollection[]
 console.log(articleElement); // null
 
-// after React does its work
-// setTimeout(() => {
-//   const articleElements = document.getElementsByTagName("article");
-//   const articleElement = document.getElementsByTagName("article").item(0);
-//   console.log(articleElements); // HTMLCollection[]
-//   console.log(articleElement); // null
-// }, 5000);
+// Proof that React does its work after JavaScript Code is finished
+// setTimeout is also Asynchronous
+setTimeout(() => {
+  const articleElements = document.getElementsByTagName("article");
+  const articleElement = document.getElementsByTagName("article").item(0);
+  console.log(articleElements); // HTMLCollection[]
+  console.log(articleElement); // null
+}, 5000);
