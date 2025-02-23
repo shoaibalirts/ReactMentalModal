@@ -16,16 +16,20 @@ function App() {
 // console.log(App());
 
 // before React does its work
+/*
 const articleElements = document.getElementsByTagName("article");
 const articleElement = document.getElementsByTagName("article").item(0);
 console.log(articleElements); // HTMLCollection[]
 console.log(articleElement); // null
+*/
 
 // Proof that React does its work after JavaScript Code is finished
 // setTimeout is also Asynchronous
+/*
 setTimeout(() => {
   const articleElements = document.getElementsByTagName("article");
   const articleElement = document.getElementsByTagName("article").item(0);
   console.log(articleElements); // HTMLCollection[]
   console.log(articleElement); // null
 }, 5000);
+*/
