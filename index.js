@@ -1,8 +1,10 @@
 const rootNode = document.getElementById("app");
 const root = ReactDOM.createRoot(rootNode);
+// Telling React where to starts adding those elements to the DOM
 root.render(React.createElement(App));
 
 function App() {
+    // created a Tree of React elements
   return React.createElement(
     "article",
     null,
